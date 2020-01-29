@@ -1,0 +1,60 @@
+body{
+	background-color: #E6E6E6;
+}
+
+#ejercicio1{
+	border: 1px solid black;
+	border-collapse:collapse;
+	width:100%;
+	background-color: white;
+}
+td.tab:hover{
+	background-color: gray;
+}
+
+td,th{
+	border: 1px solid black;
+	text-align:center;
+}
+
+td.izq {
+	border: 1px solid black;
+	text-align:center;
+	text-align: left;
+}
+
+#titulo{
+	text-align:center;
+	text-decoration:underline;
+}
+
+h2.subtitulo {
+	font-weight:bold;
+	background-color: blue;
+}
+
+#gnu{
+	color:white;
+	background-color: blue;
+}
+
+#codigo{
+	background-color:white;
+}
+
+th.numerosa{
+	color: white;
+	background-color: black;
+}
+td.borde{
+	border:none;
+	background-color:#E6E6E6;
+}
+
+#ejercicio2 {
+	border: 1px solid black;
+	background-color: white;
+}
+td.tab{
+	background-color: #DBFFF8;
+}

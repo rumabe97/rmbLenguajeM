@@ -1,0 +1,63 @@
+body{
+	background-image: url("../img/fondoP.png");
+}
+
+#ejercicio1{
+	border: 1px solid black;
+	border-collapse:collapse;
+	width:100%;
+}
+td.tab:hover{
+	background-color: gray;
+}
+
+td,th{
+	border: 1px solid black;
+	text-align:center;
+}
+
+td.izq {
+	border: 1px solid black;
+	text-align:center;
+	text-align: left;
+}
+
+#titulo{
+	text-align:center;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+h2.subtitulo {
+	font-weight:bold;
+	background-image: url("../img/fondoT.png");
+}
+
+#gnu{
+	color:white;
+	background-image: url("../img/fondoG.png");
+	font-weight:bold;
+}
+
+#codigo{
+	background-color:white;
+}
+
+
+#ejercicio2 {
+	border: 1px solid black;
+	background-color: white;
+}
+td.tab{
+	color: gray;
+}
+th.numerosa{
+	color: blue;
+}
+
+tr.ej1:nth-child(even){
+	background-color:red;
+}
+tr.ej1:nth-child(odd){
+	background-color:#DBFFF8;
+}
