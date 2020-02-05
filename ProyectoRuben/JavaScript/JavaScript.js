@@ -6,3 +6,7 @@ function Desaparecer () {
           document.getElementById('zona1').style.visibility="hidden";
           document.getElementById('zona2').style.visibility="visible";
       }
+	  
+function hora (){
+		document.getElementById('demo').innerHTML = Date();
+}
