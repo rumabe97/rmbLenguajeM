@@ -8,10 +8,21 @@
 		 <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" type="text/css">
 		  <script type="text/javascript" src="JavaScript/JavaScript.js"></script>
 	</head>
-	<body>
+	<body onload="JavaScript:dibujo();">
 	<h1>JavaScript</h1>
 	<p>JavaScript es una forma de hacer que nuestra pagina sea mas dinamica.</P>
 	<button  onclick="hora()" >Pulsa para ver la hora</button>
-	<p></p>
+	<p id="hora"></p>
+	<h2>Consolo.log()</h2>
+	<p>Con esto podemos incluir mensajes en la consola de los navegadores(f12)</p>
+	<h2>Alert</h2>
+	<p>Podemos mostrar norificaciones por pantalla</p>
+	<input type="button" onclick="alerta()" value="Pulsame">
+	<h2>Variables</h2>
+	<p>En JavaScript no es necesario indicar de que tipo es la variable.</p>
+	<h1> Ejemplos de javascript</h1>
+	<button id="zona1" onmouseover="Desaparecer();" >¡Píllame!</button>
+	<button id="zona2" onmouseover="Aparecer();">¡Píllame!</button>
+	<canvas id="canvas01" width="500px" height="400px"></canvas>
 	</body>
 </html>
