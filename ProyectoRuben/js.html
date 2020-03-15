@@ -6,9 +6,33 @@
 		 <link rel="stylesheet" href="./estilos/estilos.css" type="text/css">
 		 <link rel="shortcut icon" type="image/x-icon" href="./img/fv.ico">
 		 <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" type="text/css">
-		  <script type="text/javascript" src="JavaScript/JavaScript.js"></script>
+		 <script type="text/javascript" src="JavaScript/JavaScript.js"></script>
+		 <script type="text/javascript">
+			function ver() {
+				document.getElementById("subseccion1").style.display="block"
+			}
+			function ocultar() {
+				 document.getElementById("subseccion1").style.display="none"
+			}
+		</script>
 	</head>
 	<body onload="JavaScript:dibujo();">
+	<div id="navegador">
+		<ul>
+			<a href="./html.html"><li id="seccion1">HTML</li></a>
+			<a href="./css.html"><li id="seccion2">CSS</li></a>
+			<a href="./js.html"><li id="seccion3">JavaScript</li></a>
+			<li id="seccion1" onmouseover="ver()" onmouseout="ocultar()">
+				Ejercicios
+				<div id="subseccion1">
+					<p><a href="./word.html">Word</a></p>
+					<p><a href="./rosalia.html"> Rosalia</a></p>
+					<p><a href="./starwars.html"> StarWars</a></p>
+				</div>
+			</li> 
+			</ul>
+		<div class="borrar"></div>
+	</div>
 	<h1>JavaScript</h1>
 	<p>JavaScript es una forma de hacer que nuestra pagina sea mas dinamica.</P>
 	<button  onclick="hora()" >Pulsa para ver la hora</button>
@@ -24,5 +48,14 @@
 	<button id="zona1" onmouseover="Desaparecer();" >¡Píllame!</button>
 	<button id="zona2" onmouseover="Aparecer();">¡Píllame!</button>
 	<canvas id="canvas01" width="500px" height="400px"></canvas>
+	<footer>
+		<br><i class="fa fa-thumbs-o-up fa-3x"></i> Follow me on instagram and give me like.
+		<i class="fa fa-arrow-right  fa-2x"></i>
+		<a href="https://www.instagram.com/ruben_aldea97" target="_Blank">
+			<i class="fa fa-instagram fa-5x"></i>
+		</a>
+		<br><a class="volver" href="./index.html">ATRAS</a><br><br>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a>.
+		</footer>
 	</body>
 </html>

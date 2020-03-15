@@ -5,8 +5,32 @@
 		<link rel="stylesheet" href="./estilos/estilos.css" type="text/css">
 		<link rel="shortcut icon" type="image/x-icon" href="./img/fv.ico">
 		<link rel="stylesheet" href="./font-awesome/css/font-awesome.css" type="text/css">
+		<script type="text/javascript">
+			function ver() {
+				document.getElementById("subseccion1").style.display="block"
+			}
+			function ocultar() {
+				 document.getElementById("subseccion1").style.display="none"
+			}
+		</script>
 	</head>
 	<body>
+	<div id="navegador">
+		<ul>
+			<a href="./html.html"><li id="seccion1">HTML</li></a>
+			<a href="./css.html"><li id="seccion2">CSS</li></a>
+			<a href="./js.html"><li id="seccion3">JavaScript</li></a>
+			<li id="seccion1" onmouseover="ver()" onmouseout="ocultar()">
+				Ejercicios
+				<div id="subseccion1">
+					<p><a href="./word.html">Word</a></p>
+					<p><a href="./rosalia.html"> Rosalia</a></p>
+					<p><a href="./starwars.html"> StarWars</a></p>
+				</div>
+			</li> 
+			</ul>
+		<div class="borrar"></div>
+	</div>
 		<div class="cabecera"><h1>Proyecto de Lenguaje de Marcas</h1>
 		<h2>Ruben Martinez</h2>
 		</div>

@@ -228,16 +228,47 @@ footer{
 	background-color:orange;
 	text-align:center;
 }
-/* tr:hover{
-	background-color:gray;
-}
-/* tr:nth-child(even){
-	background-color:gray;
-}
-div{
-	overflow-x:auto;
+
+#navegador { 
+	background-color: #663366; 
+	padding: 0.5em;
 }
 
+#navegador li { 
+	margin: 0px 5px; 
+	padding: 0.1em 1em 0.5em 1em; 
+    background-color: #9933cc;
+	width: 12%;
+	float: left;
+    list-style-type: none;  
+	position: relative;
+}
+
+#navegador li:hover {
+	background-color: #990033; 
+}
+
+#navegador li a:link, #navegador li a:visited { 
+    color: #feffe4; 
+	text-decoration: none; 
+}
+
+#navegador li a:hover, #navegador li a:active { 
+    color:#ffd7a9 ; 
+	text-decoration: none; 
+}
+
+#subseccion1 { 
+	position: absolute; 
+	top: 100%; 
+	left: 0px;  
+    background-color: #41338b; 
+	font:normal 0.8em arial;  
+    padding: 0.2em 0.5em ;
+	display: none;
+}
+
+.borrar { clear: both; }
 
 
 
