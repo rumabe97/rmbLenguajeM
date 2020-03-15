@@ -224,6 +224,10 @@ li.hor {
 	width:100%;
 	height: 200px;
 }
+footer{
+	background-color:orange;
+	text-align:center;
+}
 /* tr:hover{
 	background-color:gray;
 }

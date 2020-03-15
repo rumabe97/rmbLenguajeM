@@ -458,12 +458,57 @@
 		    Podemos indicarle estilos a traves de css, como puede ser la altura y la anchura. Otro estilo que podemos insertar en nuestro iframe es quiatrle el borde con la propiedad border:none.</p>
 		<iframe id="frm" src="./css.html" name="netTh"> </iframe>
 		<p><a href="./word.html" target="netTh">Pulsa el enlace</a></p>
-		<h3>Formularios</h3>
+		<h3>Layout</h3>
+		<p> La estructura de una pagina web puede ser similar a la siguiente</P>
+		<img  src="./img/layout.png" alt="layout" title="layout">
+		<ol>
+		  <li>Header: Es la cabecera de la pagina</li>
+		  <li>Nav: Es un contenedor con enlaces para navegar</li>
+		  <li>Section: Define una seccion</li>
+		  <li>Footer: Es el pie de pagina </li>
+		</ol>
+		<h3> Formularios </h3>
+		<p> Para iniciar un formulario hay que indicarlo con la etiqueta form. Existen diferentes elementos:</p>
+		<h4> Action</h4>
+		<p>Define que se va a hacer una vez se pulse el boton de submit</p>
+		<h4>input</h4>
+		<p>Define un elemento que recibira una entrada de dato. Dependiendo del tipo de definaos en el elemento type, tendremos uno u otro</p>
+		<h4>text</h4>
+		<p>Son entradas de texto</h4><br>
+		<input name="Texto" type="text">
+		<h4>Password</h4>
+		<p>Non permite introducir contraseñas sin que se vean los caracteres</p><br>
+		<input name="Contraseña" type="password">
+		<h4>Submit</h4>
+		<p>Es el boton que enviara la informacion del formulario medinte la accion definida en la etiqueta form del formulario</p>
+		<h4>Radio</h4>
+		<p>Son botones de radio. Solo podemos elegir uno de los que hay en el grupo definido.</p>
+		<input type="radio" name="series" value="Juego de tronos">Juego de tronos<br>
+		<input type="radio" name="series" value="Peaky Blinders">Peaky Blinders<br>
+		<input type="radio" name="series" value="The Witcher">The Witcher
+		<h4> CheckBox</h4>
+		<p>Es igual que radio, pero podemos elegir mas de una opcion</p>
+		<input type="checkbox" name="series" value="Juego de tronos">Juego de tronos<br>
+		<input type="checkbox" name="series" value="Peaky Blinders">Peaky Blinders<br>
+		<input type="checkbox" name="series" value="The Witcher">The Witcher
+		<h4>Button</h4>
+		<p>Se ejecuta una accion</p>
+		<input type="button" onclick="alert('Hola ♥♥♥♥')" value="Pulsame">
+		<h4>Select</h4>
+		<p>Se genera una lista desplegable. Podemos elegir las opciones que queramos</p>
+		<select>
+		<option value="Juego de tronos">Juego de tronos</option>
+		<option value="The Walking Dead">The Walking Dead</option>
+		</select>
+		<br><br>
+		<footer>
 		<br><i class="fa fa-thumbs-o-up fa-3x"></i> Follow me on instagram and give me like.
 		<i class="fa fa-arrow-right  fa-2x"></i>
 		<a href="https://www.instagram.com/ruben_aldea97" target="_Blank">
 			<i class="fa fa-instagram fa-5x"></i>
 		</a>
-		<br><a class="volver" href="./index.html">ATRAS</a>
+		<br><a class="volver" href="./index.html">ATRAS</a><br><br>
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a>.
+		</footer>
 	</body>
 </html>

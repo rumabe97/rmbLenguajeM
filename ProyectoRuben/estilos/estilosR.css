@@ -1,0 +1,96 @@
+#titulo{
+	margin-left:255px;
+	margin-top:30px;
+}
+
+#imgti{
+	width: 15px;
+	height: 175px;
+}
+
+#buscar{
+	background-color: #fafafa;
+    color: #bec0c2;
+    border-color: #f2f2f2;
+    padding-left: 115px;
+    height: 25px;
+    width: 105px;
+    border-radius: 5px;
+	margin-left:360px;
+}
+
+form{
+	position: absolute;
+    top: 30px;
+}
+
+#cuerpo {
+	margin-left:315px;
+	margin-top: 40px;
+	height: 655px;
+	width:820px;
+	
+}
+
+#comentarios{
+	border: 1px solid gray;
+	height:655px;
+}
+
+img.perfil{
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:18px;
+}
+
+p{
+	margin-top:25px;
+	font-size:12px;
+}
+#imgro{
+	height:657px;
+	width:480px;
+	float:left;
+}
+
+#margen{
+	margin-left:110px;
+}
+
+#prueba{
+	margin-left:642px;
+	margin-top:30px;
+	margin-bottom:35px;
+}
+
+#perfil2{
+	margin-bottom:150px;
+}
+
+#ultimo{
+	margin-left:495px;
+}
+#emote{
+	margin-left:180px;
+}
+hr{
+	margin-top:20px;
+	border: 1px solid gray;
+	
+}
+
+span.negrita{
+	font-weight:bold;
+	font-size:1.3em;
+}
+
+span.gris{
+	color:gray;
+}
+
+span.azul{
+	font-weight:bold;
+	color:blue;
+	font-size:1.3em;
+}
