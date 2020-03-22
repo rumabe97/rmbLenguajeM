@@ -5,11 +5,25 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="./estilos/estilosF.css" type="text/css">
 		<link rel="shortcut icon" type="image/x-icon" href="./img/fv.ico">
+		<script type="text/javascript" src="JavaScript/form.js"></script>
 		<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 		<script>tinymce.init({selector:'textarea'});</script>
 	</head>
 	<body>
 	<h1>Tienda de moviles</h1>
+	<button id="boton" onclick="Aparecer1();" >Pulsa para registrate</button>
+	<button id="boton2" onclick="Aparecer2();" >Si estas registrado pulsa este boton</button>
+	<div id="regis">
+	<form action="./formulario.html">
+	<div class="margen">
+		<label for="correo"> Introduce el correo</label>
+		<input type="email" value placeholder="correo@correo.com">
+		<label for="contr">Contraseña</label>
+		<input type="password" id="contr" value placeholder="Contraseña">
+		</div>
+		<input type="submit" value="Registrarse" >
+	</form>
+	</div>
 	<div id="form">
 		<form action="./finF.html" method="Post">
 			<div class="margen">
