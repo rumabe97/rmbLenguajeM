@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruben Martinez</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./estilos/estilosF.css" type="text/css">
+		<link rel="shortcut icon" type="image/x-icon" href="./img/fv.ico">
+		<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+		<script>tinymce.init({selector:'textarea'});</script>
+	</head>
+	<body>
+	<h1>Tienda de moviles</h1>
+	<div id="form">
+		<form action="./finF.html" method="Post">
+			<div class="margen">
+			<label for="usu">Usuario</label>
+			<input type="text" id="usu" value placeholder="Usuario:">
+			</div>
+			<div class="margen">
+			<label for="cont">Contraseña</label>
+			<input type="password" id="cont" value placeholder="Contraseña">
+			</div>
+			<div class="margen">
+			<label for="fecha">Elige la fecha de entrega</label>
+			<input type="date" id="fecha" value placeholder="dd/mm/aaa">
+			</div>
+			<div class="margen">
+			<label for="marca">Elige la marca</label>
+			<select>
+				<option value="Apple">Apple</option>
+				<option value="Xiaomi">Xiaomi</option>
+				<option value="Samsung">Samsung</option>
+				<option value="Huawei">Huawei</option>
+				<option value="Nokia">Nokia</option>
+				<option value="BQ">BQ</option>
+				<option value="LG">LG</option>
+			</select>
+			</div>
+			<div class="margen">
+				<label for="color">Elige la marca</label><br>
+				<label class="lab" for="blanco">Blanco</label>
+				<input type="radio" name="color" id="blanco" value="Blanco">
+				<label class="lab" for="negro">Negro</label>
+				<input type="radio" name="color" id="negro" value="Negro">
+				<label class="lab" for="azul">Azul</label>
+				<input type="radio" name="color" id="azul" value="Azul">
+				<label class="lab" for="dorado">Dorado</label>
+				<input type="radio" name="color" id="dorado" value="Dorado">
+				<label class="lab" for="rosa">Rosa</label>
+				<input type="radio" name="color" id="rosa" value="Rosa">
+			</div>
+			<div class="margen">
+				<label for="ram">Elige la Ram</label><br>
+				<label class="lab" for="4">4GB</label>
+				<input type="radio" name="ram" id="4" value="4">
+				<label class="lab" for="6">6GB</label>
+				<input type="radio" name="ram" id="6" value="6">
+				<label class="lab" for="8">8GB</label>
+				<input type="radio" name="ram" id="8" value="8">
+			
+			</div>
+			<div class="margen">
+				<label for="acce">Elige los accesorios</label><br>
+				<label class="lab" for="car">Cargador</label>
+				<input type="checkbox"  id="car" name="acce" value="Cargador">
+				<label class="lab" for="au">Auriculares</label>
+				<input type="checkbox" id="au" name="acce" value="Auriculares">
+				<label class="lab" for="pp">Protector de pantalla</label>
+				<input type="checkbox" id="pp" name="acce" value="Protector">
+				<label class="lab" for="fun">Funda</label>
+				<input type="checkbox" id="fun" name="acce" value="Funda">
+				<label class="lab" for="tm">Tarjeta de memoria</label>
+				<input type="checkbox" id="tm" name="acce" value="Tarjeta">
+			</div>	
+			<div class="margen">			
+				<textarea>Introduce las indicaciones que quieras</textarea>
+			</div>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	</body>
+</html>
