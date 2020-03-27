@@ -72,6 +72,7 @@ sup{
 	font-size:50%;
 	color:gray;
 	margin-right:25px;
+	z-index:0;
 }
 
 #mas{
@@ -127,4 +128,63 @@ sup{
 #tog{
 	width:35px;
 	float:right;
-{
+}
+	
+#login{
+	position:absolute;
+	margin-left:975px;
+	width:300px;
+	height:100%;
+	background-color:white;
+	z-index:1;
+	border:1px solid gray;
+	overflow:scroll;
+	visibility:hidden;
+}
+
+#gmail2{
+	color:red;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:15px;
+	float:left;
+}
+
+.cuenta{
+	color:gray;
+	height:35px;
+	margin-top:10px;
+	display: flex;
+    align-items: center;
+}
+
+#invisibles{
+	width:30px;
+	height:30px;
+	color:white;
+	background-color:gray;
+	border-radius:50%;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+	text-align:right;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.cuenta:hover{
+	background-color:#EBEBEB;
+}
+
+#ayuda{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+	text-align:right;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
