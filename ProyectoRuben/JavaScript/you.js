@@ -10,9 +10,10 @@ function Mano(){
 }	
 
 function Desaparecer() {
-		if(aux==2){
+		if(aux==1){
           document.getElementById('login').style.visibility="hidden";
 		  aux=0;
+		}else{
+			aux++;
 		}
-		aux++;
 }
