@@ -1,6 +1,7 @@
 @font-face {font-family: you;src: url('../fuentes/you.ttf');}
 body{
 	background-image: url("../img/fondoY.png");
+	overflow-x: hidden;
 }
 #buscador{
 	padding-left:20px;
@@ -135,7 +136,7 @@ sup{
 	
 #login{
 	position:absolute;
-	margin-left:1050px;
+	margin-left:71.5%;
 	width:300px;
 	height:100%;
 	background-color:white;
@@ -251,8 +252,8 @@ sup{
 }
 
 #likes{
-	margin-left:255px;
-	font-size:16px;
+	margin-left:186px;
+	font-size:15px;
 	color:gray;
 }
 
