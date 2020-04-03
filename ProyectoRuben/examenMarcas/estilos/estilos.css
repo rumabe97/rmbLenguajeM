@@ -1,0 +1,101 @@
+body{
+	background-color:black;
+	color:white;
+	margin-left:80px;
+	overflow-x: hidden;
+	font-family:Arial Rounded MT Bold;
+}
+
+#titulo{
+	font-family:Berlin Sans FB Demi;
+	color:yellow;
+	text-align:center;
+	margin-bottom:70px;
+}
+
+#contenido{
+	width:90%;
+	margin-left:80px;
+	overflow-x: hidden;
+}
+
+h3{
+	font-family:Berlin Sans FB Demi;
+	color:yellow;
+	margin-bottom:25px;
+	margin-top:82px;
+	font-size:20px;
+}
+.parrafos{
+	
+	font-size:16px;
+	margin-right:75px;
+}
+
+ul,ol{
+	font-family:Berlin Sans FB Demi;
+	color:yellow;
+	margin-bottom:85px;
+}
+
+footer{
+	margin-left:-75px;
+}
+
+#ww{
+	overflow:scroll;
+	width:90%;
+	height:200px;
+	background-color:white;
+	color:black;
+	margin-bottom:25px;
+}
+
+.sp{
+	color: blue;
+}
+
+#imagen1{
+	width:50%;
+	height:200px;
+}
+
+#imagen2{
+	width:50%;
+	height:200px;
+	visibility:hidden;
+}
+
+label{
+	margin-right:20px;
+}
+
+input, select{
+	width:150px;
+	margin-right:25px;
+}
+
+textarea{
+	width:546px;
+	height:100px;
+	margin-top:10px;
+}
+form{
+	margin-bottom:25px;
+}
+
+table{
+	margin-bottom:25px;
+	border:1px solid white;
+}
+
+td,th{
+	border: 1px solid white;
+}
+
+h4,h5,h6, caption{
+	font-family:Berlin Sans FB Demi;
+	color:yellow;
+	margin-bottom:25px;
+	margin-top:82px;
+}
